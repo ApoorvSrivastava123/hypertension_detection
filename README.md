@@ -27,7 +27,7 @@ The process of detecting hypertension in this project involves several steps:
 4. **Classification**: The composed images are processed through Hpt-Net, a custom CNN model, as well as other CNN models like ResNet50 and AlexNet for comparison.
 
 ## Data Source
-The dataset comprises BCG signals of 67 normal individuals and 61 hypertensive individuals, sampled at 100 Hz. Each signal was divided into 30-second segments, resulting in over 132,000 BCG segments for analysis.
+The dataset comprises BCG signals of 67 normal individuals and 61 hypertensive individuals, sampled at 100 Hz. Each signal was divided into 30-second segments, resulting in over 132,000 BCG segments for analysis.[https://figshare.com/articles/dataset/Unobtrusive_Mattress-based_Identification_of_Hypertension_by_Integrating_Classification_and_Association_Rule_Mining/7594433]
 
 ## Model Architecture
 Hpt-Net is a custom CNN architecture designed for efficient and accurate hypertension classification:
